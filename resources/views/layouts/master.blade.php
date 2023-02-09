@@ -161,9 +161,8 @@
                 <!-- col -->
                 <div class="col-lg-5">
                     <div class="hero-1-content wow fadeInLeft animated">
-                        <h5 class="cate  wow fadeInUp animated" data-wow-delay="0.2s">#Bank Loan</h5>
-                        <h1 class="title  wow fadeInUp animated" data-wow-delay="0.4s">Personal Bank Loan
-                            From $12,500</h1>
+                        <h5 class="cate  wow fadeInUp animated" data-wow-delay="0.2s">#Temu Inklusi</h5>
+                        <h2 class="title  wow fadeInUp animated" data-wow-delay="0.4s">Temu Inklusi Kabupaten Situbondo</h2>
                         <p class=" wow fadeInUp animated" data-wow-delay="0.6s">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </p>
