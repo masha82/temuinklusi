@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title> Chariity - Fundraising & Charity HTML5 Template </title>
+    <title> Website Informasi Temu Inklusi Kabupaten Situbondo </title>
     <!-- /Required meta tags -->
 
     <!-- Favicon -->
@@ -15,19 +15,19 @@
     <!-- All CSS -->
 
     <!-- Vendor Css -->
-    <link rel="stylesheet" href="css/vendors.css">
+    <link rel="stylesheet" href="{{ asset('css/vendors.css') }}" >
     <!-- /Vendor Css -->
 
     <!-- Plugin Css -->
-    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="{{ asset('css/plugins.css') }}" >
     <!-- Plugin Css -->
 
     <!-- Icons Css -->
-    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="{{ asset('css/icons.css') }}" >
     <!-- /Icons Css -->
 
     <!-- Style Css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" >
     <!-- /Style Css -->
 
     <!-- /All CSS -->
@@ -52,7 +52,7 @@
                 <div class="acavo-responsive-menu">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="images/logo.png" alt="logo">
+                            <img src="{{ asset('images/logo.png') }}" alt="logo">
                         </a>
                     </div>
                 </div>
@@ -68,71 +68,34 @@
                     </a>
                     <div class="collapse navbar-collapse mean-menu">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a href="#" class="nav-link active">Home <i
-                                        class='las la-angle-down'></i></a>
+                            <li class="nav-item"><a href="#" class="nav-link active">BERANDA<i></i></a>
+                            </li>
+
+                            <li class="nav-item"><a href="#" class="nav-link">PROFIL<i class='las la-angle-down'></i></a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a href="index.html" class="nav-link active">Home 1</a></li>
-                                    <li class="nav-item"><a href="index-2.html" class="nav-link">Home 2</a></li>
-                                    <li class="nav-item"><a href="index-3.html" class="nav-link">Home 3</a></li>
+                                    <li class="nav-item"><a href="about-us-1.html" class="nav-link">Tentang Temu Inklusi</a></li>
+                                    <li class="nav-item"><a href="about-us-2.html" class="nav-link">Struktur Organisasi</a></li>
+                                    <li class="nav-item"><a href="about-us-2.html" class="nav-link">Visi dan Misi</a></li>
                                 </ul>
                             </li>
 
-                            <li class="nav-item"><a href="#" class="nav-link">About Us <i
-                                        class='las la-angle-down'></i></a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a href="about-us-1.html" class="nav-link">About Us 1</a></li>
-                                    <li class="nav-item"><a href="about-us-2.html" class="nav-link">About Us 2</a></li>
-                                </ul>
+                            <li class="nav-item"><a href="#" class="nav-link">AGENDA<i></i></a>
                             </li>
 
-                            <li class="nav-item"><a href="#" class="nav-link">Portfolio <i
-                                        class='las la-angle-down'></i></a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                                    <li class="nav-item"><a href="portfolio-detail.html" class="nav-link">Portfolio
-                                            Details</a></li>
-                                </ul>
+                            <li class="nav-item"><a href="#" class="nav-link">GALERI<i></i></a>
                             </li>
 
-                            <li class="nav-item"><a href="#" class="nav-link">Pages <i
-                                        class='las la-angle-down'></i></a>
+                            <li class="nav-item"><a href="#" class="nav-link">Admin<i class='las la-angle-down'></i></a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
-                                    <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
-                                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link">Auth Page <i
-                                                class='las la-angle-right'></i></a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
-                                            <li class="nav-item"><a href="signup.html" class="nav-link">Sing Up</a></li>
-                                            <li class="nav-item"><a href="recover.html" class="nav-link">Recover</a>
-                                            </li>
-                                        </ul>
+                                    <li class="nav-item"><a href="blog.html" class="nav-link">Form Berita</a></li>
+                                    <li class="nav-item"><a href="blog-grid.html" class="nav-link">Form Tentang Temu Inklusi</a></li>
+                                    <li class="nav-item"><a href="blog-single-sidebar.html" class="nav-link">Form Struktur Organisasi</a>
                                     </li>
-                                    <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-                                    <li class="nav-item"><a href="404.html" class="nav-link">404</a></li>
-                                    <li class="nav-item"><a href="coming-soon.html" class="nav-link">Coming Soon</a>
+                                    <li class="nav-item"><a href="blog-single.html" class="nav-link">Form Visi Misi</a>
                                     </li>
-                                    <li class="nav-item"><a href="loan-calculation.html" class="nav-link">Loan
-                                            Calculation</a></li>
-                                    <li class="nav-item"><a href="loans.html" class="nav-link">Loan Form</a></li>
-                                    <li class="nav-item"><a href="open-account.html" class="nav-link">Open Account</a>
+                                    <li class="nav-item"><a href="blog-single.html" class="nav-link">Form Agenda</a>
                                     </li>
-                                    <li class="nav-item"><a href="privacy-policy.html" class="nav-link">Privacy
-                                            Policy</a></li>
-                                    <li class="nav-item"><a href="testimonials.html" class="nav-link">Testimonials</a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li class="nav-item"><a href="#" class="nav-link">Blog <i class='las la-angle-down'></i></a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                                    <li class="nav-item"><a href="blog-grid.html" class="nav-link">Blog Grid</a></li>
-                                    <li class="nav-item"><a href="blog-single-sidebar.html" class="nav-link">Blog Single
-                                            Sidebar</a>
-                                    </li>
-                                    <li class="nav-item"><a href="blog-single.html" class="nav-link">Blog Single</a>
+                                    <li class="nav-item"><a href="blog-single.html" class="nav-link">Form Galeri</a>
                                     </li>
                                 </ul>
                             </li>
@@ -865,7 +828,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="blog-wrapper mb-30">
                         <div class="blog-img">
-                            <a href="blog-single.html"><img src="images/blog/blog3.jpg" alt=""></a>
+                            <a href="blog-single.html"><img src="{{ asset('images/blog/blog3.jpg') }}" alt=""></a>
                         </div>
                         <div class="blog-text">
                             <h4><a href="blog-single.html">Lorem ipsum dolor sit amet.</a>
@@ -895,7 +858,7 @@
                 <!-- col -->
                 <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div class="client-logo">
-                        <div class="client-logo-img"> <img src="images/client-logo/logo-envato.png" alt=""
+                        <div class="client-logo-img"> <img src="{{ asset('images/client-logo/logo-envato.png') }}" alt=""
                                 class="img-fluid"></div>
                     </div>
                 </div>
@@ -903,7 +866,7 @@
                 <!-- col -->
                 <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div class="client-logo">
-                        <div class="client-logo-img"> <img src="images/client-logo/logo-converkit.png" alt=""
+                        <div class="client-logo-img"> <img src="{{ asset('images/client-logo/logo-converkit.png') }}" alt=""
                                 class="img-fluid"></div>
                     </div>
                 </div>
@@ -911,7 +874,7 @@
                 <!-- col -->
                 <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div class="client-logo">
-                        <div class="client-logo-img"> <img src="images/client-logo/logo-buzzumo.png" alt=""
+                        <div class="client-logo-img"> <img src="{{ asset('images/client-logo/logo-buzzumo.png') }}" alt=""
                                 class="img-fluid"></div>
                     </div>
                 </div>
@@ -919,7 +882,7 @@
                 <!-- col -->
                 <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div class="client-logo">
-                        <div class="client-logo-img"> <img src="images/client-logo/logo-buffer.png" alt=""
+                        <div class="client-logo-img"> <img src="{{ asset('images/client-logo/logo-buffer.png') }}" alt=""
                                 class="img-fluid">
                         </div>
                     </div>
@@ -928,7 +891,7 @@
                 <!-- col -->
                 <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div class="client-logo">
-                        <div class="client-logo-img"> <img src="images/client-logo/logo-frame.png" alt=""
+                        <div class="client-logo-img"> <img src="{{ asset('images/client-logo/logo-frame.png') }}" alt=""
                                 class="img-fluid"></div>
                     </div>
                 </div>
@@ -936,7 +899,7 @@
                 <!-- col -->
                 <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6 text-center">
                     <div class="client-logo">
-                        <div class="client-logo-img"> <img src="images/client-logo/logo-clearbit.png" alt=""
+                        <div class="client-logo-img"> <img src="{{ asset('images/client-logo/logo-clearbit.png') }}" alt=""
                                 class="img-fluid">
                         </div>
                     </div>
@@ -995,7 +958,7 @@
                 <!-- col -->
                 <div class="col-xl-3 col-lg-3 col-md-4">
                     <div class="footer-logo">
-                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                        <a href="index.html"><img src="{{ asset('images/logo.png') }}" alt=""></a>
                     </div>
                 </div>
                 <!-- /col -->
@@ -1135,15 +1098,15 @@
     <!-- JS -->
 
     <!-- Vendor Js -->
-    <script src="js/vendors.js"></script>
+    <script src="{{ asset('js/vendors.js') }}"></script>
     <!-- /Vendor js -->
 
     <!-- Plugins Js -->
-    <script src="js/plugins.js"></script>
+    <script src="{{ asset('js/plugins.js') }}"></script>
     <!-- /Plugins Js -->
 
     <!-- Main JS -->
-    <script src="js/main.js"></script>
+    <script src="{{ asset('js/main.js') }}" ></script>
     <!-- /Main JS -->
 
     <!-- /JS -->
